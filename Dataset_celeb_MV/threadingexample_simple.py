@@ -398,6 +398,6 @@ class LookALikeBoothApp(App):
 
 if __name__ == '__main__':
     #initialize the FaceDetector by calculating face encodings for all available pictures
-    face_detector = FaceDetector(inputFolder="/input/", inputFolder_celeb="/test_celeb/")
+    face_detector = FaceDetector(inputFolder="/input/", inputFolder_celeb="/input/")
     face_detector.get_face_encodings()
     LookALikeBoothApp().run()

@@ -7,14 +7,9 @@ Name,ObjectClass,SamAccountName
 "Cristiano Ronaldo",christianoronaldo
 "Neymar",neymar
 "Dr. Phil McGraw",philmcgraw
-"Canelo Alvarez",caneloalvarez
 "Roger Federer",rogerfederer
-"Howard Stern",howardstern
 "J.K. Rowling",jkrowling
-"Russell Wilson",russelwilson
 "Dwayne Johnson",dwaynejohnson
-"Aaron Rodgers",aaronrodgers
-"LeBron James",lebronjames
 "Elton John",eltonjohn
 "Jay Z",jayz
 "Beyonce",beyonce
@@ -23,13 +18,11 @@ Name,ObjectClass,SamAccountName
 "Chris Hemsworth",chishemsworth
 "Drake",drake
 "Kim Kardashian",kimkardashian
-"Ryan Seacrest",ryanseacrest
 "Sean Combs",seancombs
 "Robert Downey Jr.",robertdowney
 "Kevin Durant",kevindurant
 "Akshay Kumar",akshaykumar
 "Tiger Woods",tigerwoods
-"Gordon Ramsay",gordonramsay®
 "Rihanna",rihanna
 "David Copperfield",davidcopperfield
 "Kevin Hart",kevinhart
@@ -41,13 +34,10 @@ Name,ObjectClass,SamAccountName
 "Pink",pink
 "Adam Sandler",adamsandler
 "Scarlett Johansson",scarlettjohansson
-"Ben Roethlisberger",benroethlisberger
 "Lewis Hamilton",lewishamilton
 "Anthony Joshua",anthonyjoshua
-"Khalil Mack",khalilmack
 "Bruno Mars",brunomars
 "Eminem",eminem
-"Judy Sheindlin",judysheindin
 "Ariana Grande",arianagrande
 "Paul McCartney",paulmccartney
 "Conor McGregor",conormcgregor
@@ -91,7 +81,6 @@ Name,ObjectClass,SamAccountName
 "Hillary Clinton",hillaryclinton
 "Angela Merkel",angelamerkel
 "Rowan Atkinson",rowanaktison
-"Marlon Brando",marlonbrando
 "Michelle Obama",michelleobama
 "Barack Obama",barackobama
 "Marilyn Monroe",marilynmonroe

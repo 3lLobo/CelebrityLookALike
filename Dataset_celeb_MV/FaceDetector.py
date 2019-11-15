@@ -26,11 +26,11 @@ import time
 
 class FaceDetector:
     def __init__(self,inputFolder, inputFolder_celeb):
-        self.input_dataset = pd.read_csv(filepath_or_buffer=os.getcwd() + inputFolder +'DataSet.csv',delimiter=';',quotechar='"')
+        self.input_dataset = pd.read_csv(filepath_or_buffer=os.getcwd() + inputFolder +'DataSet.csv')
         self.input_dataset['PhotoLocation'] = str(os.getcwd()) + str(inputFolder) + self.input_dataset['SamAccountName'].astype(str) + str('.jpg')
         self.input_images = self.input_dataset['PhotoLocation'].tolist()
 
-        self.input_dataset_celeb = pd.read_csv(filepath_or_buffer=os.getcwd() + inputFolder_celeb +'DataSet.csv',delimiter=';',quotechar='"')
+        self.input_dataset_celeb = pd.read_csv(filepath_or_buffer=os.getcwd() + inputFolder_celeb +'DataSet.csv')
         self.input_dataset_celeb['PhotoLocation'] = str(os.getcwd()) + str(inputFolder_celeb) + self.input_dataset_celeb['SamAccountName'].astype(str) + str('.jpg')
         self.input_images_celeb = self.input_dataset_celeb['PhotoLocation'].tolist() 
         #self.input_images = list(glob.glob(os.getcwd() + inputFolder + '*.jpg'))
