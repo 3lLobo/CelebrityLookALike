@@ -1,4 +1,5 @@
 import pandas as pd
+import csv
 
 df = pd.read_csv('labels2.csv')
 
@@ -10,4 +11,4 @@ labels['SamAccountName'] = df['ObjectClass']
 
 print(labels)
 
-labels.to_csv('newlabels.csv')
+labels.to_csv('newlabels.csv', quoting=csv.QUOTE_ALL, index=False)
